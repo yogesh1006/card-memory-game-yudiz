@@ -1,0 +1,35 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+button {
+  background: none;
+  border: 2px solid black;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background: pink;
+  color: #fff;
+}
+.tech-wrapper{
+  margin-top:2rem;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  gap:1.5rem;
+}
+
+.tech-front{
+  width:100px;
+  height:100px;
+}
+
+.tech-back{
+  width:100px;
+  height:100px;
+}

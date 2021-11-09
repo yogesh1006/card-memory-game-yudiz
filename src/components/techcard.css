@@ -1,0 +1,21 @@
+.tech{
+    position:relative;
+}
+
+.tech img{
+    width:100%;
+    display:block;
+    border:2px solid #fff;
+    border-radius: 5px;
+    max-width:100px;
+}
+
+
+.tech .tech-front{
+    transform: rotateY(90deg);
+    position:absolute;
+}
+
+.flipped .tech-front{
+    transform:rotateY(0deg)
+}
